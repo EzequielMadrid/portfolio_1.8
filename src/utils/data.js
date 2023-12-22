@@ -16,7 +16,7 @@ const Socials = [
   {
     id: `youtube-${Date.now()}`,
     Icon: FaYoutube,
-    uril: "https://www.youtube.com/channel/UCmVeFFLZhLXQ7bW0wlLdH3A",
+    uril: "https://www.youtube.com/watch?v=fuGZFVXPPo0&t=3355s",
     color: "#ff0000",
   },
 ];
