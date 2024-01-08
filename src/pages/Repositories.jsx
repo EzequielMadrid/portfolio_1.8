@@ -49,16 +49,18 @@ const Repositories = () => {
         />
         <article className="flex items-center justify-between mt-10 font-mono">
           <button
-            className="border border-cyan-400  bg-black text-cyan-400 animate-pulse font-bold py-2 px-4 rounded-xl"
+            className="border border-cyan-400 bg-black text-cyan-400 animate-pulse font-bold py-2 px-4 rounded-xl"
             onClick={prevSlide}
+            title="Previous Project"
           >
-            <FaArrowLeft />
+            <FaArrowLeft /> Prev
           </button>
           <button
-            className="border border-cyan-400  bg-black text-cyan-400 animate-pulse font-bold py-2 px-4 rounded-xl"
+            className="border border-cyan-400 bg-black text-cyan-400 animate-pulse font-bold py-2 px-4 rounded-xl"
             onClick={nextSlide}
+            title="Next Project"
           >
-            <FaArrowRight />
+            Next <FaArrowRight />
           </button>
           <Link
             to="/profile"

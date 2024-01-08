@@ -21,7 +21,7 @@ const Cartel = ({ targetPosition, setIsContact }) => {
         <p className="text-gray-300 mb-4"></p>
         <div className="flex flex-row gap-5">
           <button className="border border-cyan-400 animate-pulse text-cyan-400 font-bold py-2 px-4 rounded-xl">
-            Scroll to explore 🌑
+            Scrolldown to explore 🔽
           </button>
           <button
             onClick={handleClick}
